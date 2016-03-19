@@ -10,10 +10,8 @@ class MergeSort[T <% Ordered[T]] {
   def merge(left: List[T], right: List[T]): List[T] ={
     @tailrec
     def inner(left: List[T], right: List[T], result: List[T]): List[T] = (left, right) match {
-      case (leftHead :: leftTail, rightResult@(rightHead :: _)) if (leftHead <= rightHead) =>
-        inner(leftTail, rightResult, result :+ leftHead)
-      case (leftResult@(leftHead :: _), rightHead :: rightTail) if (leftHead > rightHead) =>
-        inner(leftResult, rightTail, result :+ rightHead)
+      case (leftHead :: leftTail, rightResult@(rightHead :: _)) if (leftHead <= rightHead) => inner(leftTail, rightResult, result :+ leftHead)
+      case (leftResult@(leftHead :: _), rightHead :: rightTail) if (leftHead > rightHead) => inner(leftResult, rightTail, result :+ rightHead)
 
       case (Nil, rightResult@(head :: _)) => result ++ rightResult
       case (leftResult@(head :: _), Nil) => result ++ leftResult
