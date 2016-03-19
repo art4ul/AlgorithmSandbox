@@ -1,6 +1,6 @@
 package com.art4ul.algorithms.sort
 
-class InsertionSort[T <% Ordered[T]] {
+class InsertionSort[T <% Ordered[T]]{
 
   def swap(array: Array[T], firstIndex: Int, secondIndex: Int): Unit = {
     val tmp: T = array(firstIndex)
