@@ -15,7 +15,6 @@ class MergeSort[T <% Ordered[T]] {
 
       case (Nil, rightResult@(head :: _)) => result ++ rightResult
       case (leftResult@(head :: _), Nil) => result ++ leftResult
-
     }
     inner(left, right, Nil)
   }
