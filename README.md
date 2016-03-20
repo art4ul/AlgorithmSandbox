@@ -5,10 +5,10 @@ My sandbox for implementation of Algorithms based on the book ["Introduction to 
 [InsertionSort](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/algorithms/sort/InsertionSort.scala)
 [MergeSort](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/algorithms/sort/MergeSort.scala)
 [HeapSort](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/algorithms/sort/HeapSort.scala)
----
+
 ## Divide&Conquer Algoritms
 [MaxSubarray](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/algorithms/divideand%D1%81onquer/MaxSubarray.scala)
----
+
 ## Balanced Trees
 [RedBlackTree](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/collection/mutable/RedBlackTree.scala)
 [IntervalTree](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/collection/mutable/IntervalTree.scala)
