@@ -1,6 +1,6 @@
-package com.art4ul.graph
+package com.art4ul.graph.undirected
 
-import com.art4ul.graph.UndirectedGraph._
+import com.art4ul.graph.undirected.UndirectedGraph._
 import org.scalatest.{FunSpec, Matchers}
 
 /**

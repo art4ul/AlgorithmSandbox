@@ -1,4 +1,6 @@
-package com.art4ul.graph
+package com.art4ul.graph.undirected
+
+import com.art4ul.graph.Graph
 
 /**
   * Created by artsemsemianenka on 4/26/16.
@@ -22,7 +24,7 @@ case class UndirectedGraph(vertex: Array[List[Int]]) extends Graph{
     }
   }
 
-  def +=(edge:(Int,Int)): this.type = {
+  override  def +=(edge:(Int,Int)): this.type = {
     val (first,second) = edge
     val firstVertexList = vertex(first)
     val secondVertexList = vertex(second)
@@ -31,8 +33,9 @@ case class UndirectedGraph(vertex: Array[List[Int]]) extends Graph{
     this
   }
 
-  def adjacent(indx:Int):Seq[Int]= vertex(indx)
+  override def adjacent(indx:Int):Seq[Int]= vertex(indx)
 
+  override def vertexCount: Int = vertex.length
 }
 
 object UndirectedGraph{

@@ -5,6 +5,8 @@ package com.art4ul.graph
   */
 trait Graph {
 
+  def vertexCount:Int
+
   def +=(edge:(Int,Int)): this.type
 
   def adjacent(indx:Int):Seq[Int]
