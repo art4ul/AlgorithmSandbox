@@ -1,9 +1,11 @@
 package com.art4ul.collection.mutable
 
+import scala.reflect.ClassTag
+
 /**
   * Created by artsemsemianenka on 3/23/16.
   */
-class Heap[T <% Ordered[T]](capacity: Int) {
+class Heap[T <% Ordered[T]](capacity: Int)(implicit m: ClassTag[T]) {
 
   val array: Array[T] = new Array[T](capacity)
 

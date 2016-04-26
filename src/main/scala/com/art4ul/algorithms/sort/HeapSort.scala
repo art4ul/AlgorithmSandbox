@@ -4,7 +4,6 @@ package com.art4ul.algorithms.sort
   * Created by artsemsemianenka on 3/20/16.
   */
 
-
 class HeapSort[T <% Ordered[T]](array: Array[T]) {
 
   var heapTail: Int = array.size - 1
