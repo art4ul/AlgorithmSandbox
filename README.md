@@ -16,10 +16,7 @@ My sandbox for implementation of Algorithms based on the book ["Introduction to 
 
 [IntervalTree](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/collection/mutable/IntervalTree.scala)
 
-## Graphs
-
-### Undirected graphs:
-    
+## Undirected graphs
 [DepthFirstSearch](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/graph/undirected/DepthFirstSearch.scala)
 
 [BreadthFirstSearch](https://github.com/art4ul/AlgorithmSandbox/blob/master/src/main/scala/com/art4ul/graph/undirected/BreadthFirstSearch.scala)
